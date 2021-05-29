@@ -36,6 +36,17 @@ body {font-family: "Lato", sans-serif}
     border-radius: 50%;
         cursor: pointer;
 }
+.close-ad {
+    position: absolute;
+    top: -25px;
+    right: 0px;
+    color: white;
+    background: black;
+    line-height: 1;
+    padding: 1px 7px 5px;
+    border-radius: 50%;
+    cursor: pointer;
+}
 @media (max-width: 500px){
   .floating{
     margin-left: 0px;
