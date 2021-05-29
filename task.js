@@ -6,8 +6,10 @@ $(".photo").wrap("<div class='close-bind'></div>");
 $('.close-bind').prepend($('<span class="close">x</span>'))
 $(".close").click(function(){
   $(".close-bind").hide();
-})
-
+});
+ $(".close-ad").click(function(){
+    $("#floating_div").hide();
+  });
 // Task 2
 
 $( document ).ready(function() {
@@ -20,9 +22,7 @@ $( document ).ready(function() {
         $("#floating_div").html('<div class="close-ad">x</div><h1>'+data[0].name+'</h1><p>'+data[0].company.name+'</p><p>'+data[0].website+'</p>');
       }
     });
-   $(".close-ad").click(function(){
-    $("#floating_div").hide();
-  });
+  
 });
 
 
