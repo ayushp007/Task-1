@@ -20,11 +20,11 @@ $( document ).ready(function() {
         $("#floating_div").html('<div class="close-ad">x</div><h1>'+data[0].name+'</h1><p>'+data[0].company.name+'</p><p>'+data[0].website+'</p>');
       }
     });
-});
-
- $(".close-ad").click(function(){
+   $(".close-ad").click(function(){
     $("#floating_div").hide();
   });
+});
+
 
 
 // Used to toggle the menu on small screens when clicking on the menu button
