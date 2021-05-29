@@ -21,7 +21,9 @@ $( document ).ready(function() {
       }
     });
   
-
+  $(".close-ad").click(function(){
+    $("#floating_div").hide();
+  })
 });
 
 
