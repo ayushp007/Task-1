@@ -23,7 +23,6 @@ $( document ).ready(function() {
   
 });
 $(document).on('click', '#close-ad', function(){
-  alert("test");
   $("#floating_div").hide();
   
 });
