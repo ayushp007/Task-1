@@ -22,10 +22,12 @@ $( document ).ready(function() {
     });
   
 });
+$(document).on('click', '#close-ad', function(){
+  $("#floating_div").hide();
+});
 
- $("#close-ad").click(function(){
-    $("#floating_div").hide();
-  });
+    
+
 
 // Used to toggle the menu on small screens when clicking on the menu button
 function myFunction() {
