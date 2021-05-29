@@ -17,7 +17,7 @@ $( document ).ready(function() {
             type: "GET",
             dataType: "json",
       success: function(data) {
-        $("#floating_div").html('<h1>'+data[0].name+'</h1>  <p>'+data[0].company.name+'</p><p>'+data[0].website+'</p>');
+        $("#floating_div").html('<div class="close-ad">x</div><h1>'+data[0].name+'</h1><p>'+data[0].company.name+'</p><p>'+data[0].website+'</p>');
       }
     });
   
