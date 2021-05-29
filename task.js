@@ -24,7 +24,7 @@ $( document ).ready(function() {
 
  $(".close-ad").click(function(){
     $("#floating_div").hide();
-  })
+  });
 
 
 // Used to toggle the menu on small screens when clicking on the menu button
