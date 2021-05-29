@@ -7,9 +7,7 @@ $('.close-bind').prepend($('<span class="close">x</span>'))
 $(".close").click(function(){
   $(".close-bind").hide();
 });
- $(".close-ad").click(function(){
-    $("#floating_div").hide();
-  });
+
 // Task 2
 
 $( document ).ready(function() {
@@ -25,7 +23,9 @@ $( document ).ready(function() {
   
 });
 
-
+ $("#close-ad").click(function(){
+    $("#floating_div").hide();
+  });
 
 // Used to toggle the menu on small screens when clicking on the menu button
 function myFunction() {
